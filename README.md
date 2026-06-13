@@ -1,6 +1,6 @@
-# 🇫🇮 Finland Real Estate Market Dashboard
+# Finland Real Estate Market Dashboard
 
-An end-to-end data analytics project that scrapes, cleans, and visualizes the Finnish residential housing market using a **Web Scraper)**, **Tableau** and **Excel**
+An end-to-end data analytics project that scrapes, cleans, and visualizes the Finnish residential housing market using a **Web Scraper**, **Tableau**, and **Excel**
 
 ## 🎯 Project Overview
 This repository contains a **dynamic Tableau Dashboard** designed to analyze residential property listings across Finland. The project bridges the gap between raw web data and actionable real estate insights, allowing users to explore prices, locations, and property characteristics seamlessly.
@@ -16,12 +16,12 @@ Real estate firms in Finland face highly fragmented market visibility because pr
 * ⏱️ **Inefficient Market Research:** Relying on manual cross-platform browsing delays business reaction times, affecting the agility of an organization and data-backed decisions.
 
 ## 🌐 Data Source & Engineering
-The data used in this project was built entirely from scratch through and automated:
+The data used in this project was built entirely from scratch and automated:
 
 * 🕷️ **Web Scraping:** Used a web scraper from Apify to extract updated data from primary Finnish real estate portals, exporting it into `Data Real Estate Finland.xlsx`.
 * 📋 **Dataset Details:** Gathered **700 unique residential listings** containing 40 attributes (e.g., price, area, building year, room count, sauna availability, and precise geographical coordinates).
 * 🛠️ **Data Extraction & Joining:** Added missing geographic regions by creating a table with all municipalities with its respective Finnish regions (`Maakunnat`).
-* 🧹 **Data Cleaning:** Handled missing values (specifically in the `rooms` variable), converted raw currency strings into numeric fields and deleted properties in Estonia.
+* 🧹 **Data Cleaning:** Handled missing values (specifically in the `rooms` variable), converted raw currency strings into numeric fields, and deleted properties in Estonia.
 
 ## 🔍 Data Analysis & Key Insights
 Based on the exploratory data analysis of the market:
