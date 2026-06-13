@@ -44,7 +44,7 @@ Based on the exploratory data analysis of the market:
 * **Data Format:** Excel / CSV 🧮
 
 ## 🎮 How to Interact with the Dashboard
-1. Download the dataset(Data Real Estate Finland.xlsx).
+1. Download the [Dataset](DataRealEstateFinland.xlsx).
 2. Open the `.twbx` file using Tableau Desktop or Tableau Public.
 3. Use the interactive filters on the left panel or the graphs to filter by **City**, **Property Type**, **Amenities**, etc.
 
