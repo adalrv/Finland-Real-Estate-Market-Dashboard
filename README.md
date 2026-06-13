@@ -1,30 +1,30 @@
 # 🇫🇮 Finland Real Estate Market Dashboard
 
-An end-to-end data analytics project that scrapes, cleans, and visualizes the Finnish residential housing market using **Python (Web Scraper)** and **Tableau**. 
+An end-to-end data analytics project that scrapes, cleans, and visualizes the Finnish residential housing market using a **Web Scraper)**, **Tableau** and **Excel**
 
 ## 🎯 Project Overview
-This repository contains a dynamic **Tableau Dashboard** designed to analyze property listings across Finland. The project bridges the gap between raw web data and actionable real estate insights, allowing users to explore prices, locations, and property characteristics seamlessly.
+This repository contains a **dynamic Tableau Dashboard** designed to analyze residential property listings across Finland. The project bridges the gap between raw web data and actionable real estate insights, allowing users to explore prices, locations, and property characteristics seamlessly.
 
-## 📊 Dashboard Preview
+## 📊 Dashboard
 ![Tableau Dashboard Preview](image_1fc03e.png)
 
 ## ❓ Problem Statement
-Finding housing or analyzing real estate investment opportunities in Finland can be challenging due to decentralized information across various listing platforms. 
+Real estate firms in Finland face highly fragmented market visibility because property listings are scattered across multiple competitor websites and independent agencies. 
 
-* 🚫 **Lack of Centralized Insights:** Data is often fragmented, making it hard to see country-wide trends.
-* 📉 **Hidden Market Dynamics:** Vital metrics like the average price per square meter (`€/m²`) across different municipalities are not easily comparable at a glance.
-* ⏱️ **Manual Effort:** Investors and buyers spend hours manually comparing properties without a data-driven benchmark.
+* 🏢 **Hidden Competitor Landscape:** Without a centralized view, firms cannot efficiently monitor rival pricing models or supply distributions across different municipalities.
+* 📉 **Opaque Pricing Dynamics:** Hidden variations in metrics such as the average price per square meter (`€/m²`) limit a company's ability to price new developments competitively or identify undervalued acquisitions.
+* ⏱️ **Inefficient Market Research:** Relying on manual cross-platform browsing delays business reaction times, affecting the agility of an organization and data-backed decisions.
 
-## 🌐 Data Source & Engineering (Origen de Datos)
-The data used in this project was built entirely from scratch through an automated pipeline:
+## 🌐 Data Source & Engineering
+The data used in this project was built entirely from scratch through and automated:
 
-* 🕷️ **Web Scraping:** Developed a custom Python web scraper to extract real-time data from primary Finnish real estate portals using `Data Real Estate Finland.xlsx`.
-* 📋 **Dataset Details:** Gathered **702 unique residential listings** containing 40 structural attributes (e.g., price, area, building year, room count, sauna availability, and precise geographical coordinates).
-* 🛠️ **Data Extraction & Joining:** Extracted missing geographic hierarchies by joining regional data tables to map out municipalities directly into their respective Finnish regions (`Maakunnat`).
-* 🧹 **Data Cleaning:** Handled missing values (specifically in the `totalArea` and `buildYear` variables), converted raw currency strings into numeric fields, and filtered out non-residential listings.
+* 🕷️ **Web Scraping:** Used a web scraper from Apify to extract updated data from primary Finnish real estate portals, exporting it into `Data Real Estate Finland.xlsx`.
+* 📋 **Dataset Details:** Gathered **700 unique residential listings** containing 40 attributes (e.g., price, area, building year, room count, sauna availability, and precise geographical coordinates).
+* 🛠️ **Data Extraction & Joining:** Added missing geographic regions by creating a table with all municipalities with its respective Finnish regions (`Maakunnat`).
+* 🧹 **Data Cleaning:** Handled missing values (specifically in the `rooms` variable), converted raw currency strings into numeric fields and deleted properties in Estonia.
 
 ## 🔍 Data Analysis & Key Insights
-Based on the exploratory data analysis (EDA) of the scraped market snapshot:
+Based on the exploratory data analysis of the market:
 
 * 📈 **Market Distribution:** The capital region concentrates the highest density of online listings, with **Helsinki (85)**, **Espoo (47)**, and **Vantaa (32)** representing a massive share of the market, alongside major regional hubs like **Kuopio (51)** and **Oulu (44)**.
 * 💶 **Price Disparities:** The average residential property price in the dataset sits around **€209,983**, with high-end luxury properties peaking up to **€1.54M**.
