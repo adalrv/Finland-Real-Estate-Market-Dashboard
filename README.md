@@ -35,9 +35,9 @@ Based on the exploratory data analysis of the market:
 * 🏡 **Property Profiles:** The average size of a listed residential property is **107 m²**, spanning a broad range from compact city studios (19 m²) to large detached family homes (600 m²).
 
 ## 💡 Conclusions
-* 💰 **Strategic Pricing:** By visualizing competitor supply directly on a geographic map, the business can accurately price its own assets, ensuring they are aligned with, or strategically positioned against competitors.
+* 💰 **Strategic Pricing:** By visualizing competitor supply directly on a geographic map, the business can accurately price its own assets, ensuring they are aligned with, or strategically positioned against our competitors.
 * 🏗️ **Identifying Market Inefficiencies:** Transitioning from raw web data to an interactive Tableau interface allows analysts to instantly identify regions with low supply but high premium potential (e.g., specific amenities like *Sauna* or *Outdoor Space*), turning those gaps into business opportunities.
-* 📈 **Scalability:** We can make this dashboard to be updated periodically, creating a historical timeline of price fluctuations in the Finnish housing market.
+* 📈 **Scalability:** We can update this dashboard to be updated periodically, creating a historical timeline of price fluctuations in the Finnish housing market.
 
 ## 🛠️ Tools
 * **Visualization:** Tableau Desktop / Public 📊
@@ -45,7 +45,7 @@ Based on the exploratory data analysis of the market:
 
 ## 🎮 How to Interact with the Dashboard
 1. Download the [Dataset](DataRealEstateFinland.xlsx).
-2. Open the `.twbx` file using Tableau Desktop or Tableau Public.
+2. Download and open the [Tableau](TableauRealEstateFinland.twbx) file using Tableau Desktop or [Tableau Public](https://public.tableau.com/app/profile/adalberto.rosendo.vargas/viz/RealEstateFinland/RealEstateSuomi).
 3. Use the interactive filters on the left panel or the graphs to filter by **City**, **Property Type**, **Amenities**, etc.
 
 ---
