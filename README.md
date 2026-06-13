@@ -20,34 +20,33 @@ The data used in this project was built entirely from scratch and automated:
 
 * 🕷️ **Web Scraping:** Used a web scraper from Apify to extract updated data from primary Finnish real estate portals, exporting it into `Data Real Estate Finland.xlsx`.
 * 📋 **Dataset Details:** Gathered **700 unique residential listings** containing 40 attributes (e.g., price, area, building year, room count, sauna availability, and precise geographical coordinates).
-* 🛠️ **Data Extraction & Joining:** Added missing geographic regions by creating a table with all municipalities with its respective Finnish regions (`Maakunnat`).
+* 🗂️ **Data Extraction & Editing:** Added missing geographic regions by creating a table with all municipalities with its respective Finnish regions (`Maakunnat`).
 * 🧹 **Data Cleaning:** Handled missing values (specifically in the `rooms` variable), converted raw currency strings into numeric fields, and deleted properties in Estonia.
 
 ## 🔍 Data Analysis & Key Insights
 Based on the exploratory data analysis of the market:
 
-* 📈 **Market Distribution:** The capital region concentrates the highest density of online listings, with **Helsinki (85)**, **Espoo (47)**, and **Vantaa (32)** representing a massive share of the market, alongside major regional hubs like **Kuopio (51)** and **Oulu (44)**.
+* 📈 **Market Distribution:** The capital region concentrates the highest density of online listings, with **Helsinki (85)**, **Espoo (46)**, and **Vantaa (32)** representing a massive share of the market, alongside major regional hubs like **Kuopio (51)** and **Oulu (44)**.
 * 💶 **Price Disparities:** The average residential property price in the dataset sits around **€209,983**, with high-end luxury properties peaking up to **€1.54M**.
-* 📏 **The Square Meter (`€/m²`) Premium:** 
-  * **Helsinki** commands the highest premium at an average of **~€4,678/m²**.
+* 📏 **The Square Meter (`€/m²`):** 
+  * **Helsinki** commands the highest m² at an average of **~€4,678/m²**.
   * **Espoo** follows closely at **~€3,730/m²**, and **Vantaa** at **~€3,170/m²**.
   * Northern and Central hubs offer significantly more space per Euro, with **Oulu (~€2,518/m²)** and **Kuopio (~€2,247/m²)** displaying much higher affordability.
 * 🏡 **Property Profiles:** The average size of a listed residential property is **107 m²**, spanning a broad range from compact city studios (19 m²) to large detached family homes (600 m²).
 
 ## 💡 Conclusions
-* 🔑 **Location is the Primary Driver:** The capital region (Helsinki-Espoo-Vantaa) shows a clear price premium that detaches itself from the rest of the country's average square meter valuation.
-* 🏗️ **Data-Driven Decisions:** Transitioning from raw web tables to a visual map-based Tableau interface enables instant filtering of properties based on specific criteria like *Price per m²* or *Sauna presence*, empowering buyers to spot undervalued deals.
-* 🔄 **Scalability:** The architecture of the Python scraper allows this dashboard to be updated periodically, creating a historical timeline of price fluctuations in the Finnish housing market.
+* 💰 **Strategic Pricing:** By visualizing competitor supply directly on a geographic map, the business can accurately price its own assets, ensuring they are aligned with, or strategically positioned against competitors.
+* 🏗️ **Identifying Market Inefficiencies:** Transitioning from raw web data to an interactive Tableau interface allows analysts to instantly identify regions with low supply but high premium potential (e.g., specific amenities like *Sauna* or *Outdoor Space*), turning those gaps into business opportunities.
+* 📈 **Scalability:** We can make this dashboard to be updated periodically, creating a historical timeline of price fluctuations in the Finnish housing market.
 
-## 🛠️ Tech Stack & Tools
-* **Language:** Python 🐍 (BeautifulSoup / Scrapy, Pandas, NumPy)
+## 🛠️ Tools
 * **Visualization:** Tableau Desktop / Public 📊
-* **Data Format:** Excel / CSV 📁
+* **Data Format:** Excel / CSV 🧮
 
-## 🚀 How to Interact with the Dashboard
-1. Clone this repository or download the dataset.
+## 🎮 How to Interact with the Dashboard
+1. Download the dataset.
 2. Open the `.twbx` file using Tableau Desktop or Tableau Public.
-3. Use the interactive filters on the left panel to filter by **City**, **Property Type**, or **Price Range**.
+3. Use the interactive filters on the left panel or the graphs to filter by **City**, **Property Type**, **Amenities**, etc.
 
 ---
 *Developed by Adalberto Rosendo Vargas* 🚀
