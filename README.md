@@ -45,7 +45,7 @@ Based on the exploratory data analysis of the market:
 
 ## 🎮 How to Interact with the Dashboard
 1. Download the [Dataset](DataRealEstateFinland.xlsx).
-2. Download and open the [Tableau](TableauRealEstateSuomi.twbx) file using Tableau Desktop or [Tableau Public](https://public.tableau.com/app/profile/adalberto.rosendo.vargas/viz/RealEstateFinland/RealEstateSuomi).
+2. Download and open the [Tableau](TableauRealEstateSuomi.twbx) file using Tableau Desktop or [Tableau Public](https://public.tableau.com/app/profile/adalberto.rosendo.vargas/viz/TableauRealEstateFinland/RealEstateSuomi).
 3. Use the interactive filters on the left panel or the graphs to filter by **City**, **Property Type**, **Amenities**, etc.
 
 ---
