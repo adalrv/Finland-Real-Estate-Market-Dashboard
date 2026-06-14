@@ -6,7 +6,7 @@ An end-to-end data analytics project that scrapes, cleans, and visualizes the Fi
 This repository contains a **dynamic Tableau Dashboard** designed to analyze residential property listings across Finland. The project bridges the gap between raw web data and actionable real estate insights, allowing users to explore prices, locations, and property characteristics seamlessly.
 
 ## 📊 Dashboard
-![Tableau Dashboard Preview](TableauP1Picture.png)
+![Tableau Dashboard Preview](TableauP1Pic.png)
 
 ## ❓ Problem Statement
 Real estate firms in Finland face highly fragmented market visibility because property listings are scattered across multiple competitor websites and independent agencies. 
@@ -45,7 +45,7 @@ Based on the exploratory data analysis of the market:
 
 ## 🎮 How to Interact with the Dashboard
 1. Download the [Dataset](DataRealEstateFinland.xlsx).
-2. Download and open the [Tableau](TableauRealEstateFinland.twbx) file using Tableau Desktop or [Tableau Public](https://public.tableau.com/app/profile/adalberto.rosendo.vargas/viz/RealEstateFinland/RealEstateSuomi).
+2. Download and open the [Tableau](TableauRealEstateSuomi.twbx) file using Tableau Desktop or [Tableau Public](https://public.tableau.com/app/profile/adalberto.rosendo.vargas/viz/RealEstateFinland/RealEstateSuomi).
 3. Use the interactive filters on the left panel or the graphs to filter by **City**, **Property Type**, **Amenities**, etc.
 
 ---
